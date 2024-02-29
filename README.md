@@ -1,4 +1,6 @@
 # Binar: Challenge 02
+Fullstack Web Development Challenge 1 Binar Academy - FSW2402KM6004 Andhika Rizky Aulia  
+
 
 - Mulai modifikasi file `server/index.js` apabila ingin membuat HTTP server.
 - Mulai modifikasi folder `public` apabila ingin memodifikasi HTML.
