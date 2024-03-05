@@ -169,6 +169,8 @@ body {
     padding: 3px 6px;
     z-index: 1;
   }
+
+  /* Testimonial */
   
   .testimonial {
     background: #f1f3ff;
@@ -180,19 +182,13 @@ body {
     position: relative;
   }
   
-  .testiImg {
+  .testi-img {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  .testimg img {
-    height: auto;
-    width: 3rem;
-    scale: 0.5;
-  }
-  
-  .testiText {
+  .testi-text {
     width: 415px;
     height: 132px;
     font-size: 14px;
@@ -201,7 +197,7 @@ body {
     margin-right: 0;
   }
   
-  .testiName {
+  .testi-name {
     font-weight: 600;
   }
   
@@ -210,6 +206,8 @@ body {
     gap: 10px;
   }
   
+  /* Banner */
+
   .banner .container {
     background-color: #0d28a6;
     border-radius: 13px;
@@ -220,6 +218,8 @@ body {
   .banner .container * {
     margin: 30px 0;
   }
+
+  /* Footer */
   
   .footer .col-md-2 a {
     color: black;
@@ -234,6 +234,7 @@ body {
     width: 110px;
     background-color: #0d28a6;
   }
+
   /* RESPONSIF MOBIL LEXUS & SERVICE */
   @media (max-width: 600px) {
     .upper-section {
@@ -250,6 +251,7 @@ body {
       height: auto;
     }
   }
+
   /* RESPONSIF TESTIMONI */
   @media (max-width: 600px) {
     .testimonial {
