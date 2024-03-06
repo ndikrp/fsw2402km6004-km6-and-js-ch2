@@ -67,53 +67,51 @@
     </section>
     <!-- Hero Section End -->
 
-    <!-- Search Bar -->
-    <main>
-        <!-- search bar -->
-        <section class="search-bar">
-            <div class="search-content">
-                <div class="input-group d-flex flex-column pe-2">
-                    <p>Tipe Driver</p>
-                    <select class="form-select" id="driver" required>
-                        <option class="item" value="" selected hidden>
-                            Pilih Tipe Driver
-                        </option>
-                        <option class="item" value="true">Dengan Sopir</option>
-                        <option class="item" value="false">
-                            Tanpa Sopir (Lepas Kunci)
-                        </option>
-                    </select>
-                </div>
-                <div class="input-group d-flex flex-column pe-2">
-                    <p>Tanggal</p>
-                    <input type="date" class="form-control" id="date" required />
-                </div>
-                <div class="input-group d-flex flex-column pe-2">
-                    <p>Waktu Jemput/Ambil</p>
-                    <input type="time" id="time" class="form-control" required />
-                </div>
-                <div class="input-group d-flex flex-column">
-                    <p>Jumlah Penumpang (Opsional)</p>
-                    <div class="d-flex flex-row">
-                        <input type="number" class="form-control item" id="passanger" style="background-color: #fff" />
-                    </div>
-                </div>
-
-                <button type="submit" class="btn btn-search mx-2" id="load-btn">
-                    Cari Mobil
-                </button>
+    <!-- search Bar Section -->
+    <section class="search-bar">
+        <div class="search-content">
+            <div class="input-group d-flex flex-column pe-2">
+                <p>Tipe Driver</p>
+                <select class="form-select" id="driver" required>
+                    <option class="item" value="" selected hidden>
+                        Pilih Tipe Driver
+                    </option>
+                    <option class="item" value="true">Dengan Sopir</option>
+                    <option class="item" value="false">
+                        Tanpa Sopir (Lepas Kunci)
+                    </option>
+                </select>
             </div>
-        </section>
-        <!-- /search bar -->
+            <div class="input-group d-flex flex-column pe-2">
+                <p>Tanggal</p>
+                <input type="date" class="form-control" id="date" required />
+            </div>
+            <div class="input-group d-flex flex-column pe-2">
+                <p>Waktu Jemput/Ambil</p>
+                <input type="time" id="time" class="form-control" required />
+            </div>
+            <div class="input-group d-flex flex-column">
+                <p>Jumlah Penumpang (Opsional)</p>
+                <div class="d-flex flex-row">
+                    <input type="number" class="form-control item" id="passenger" />
+                </div>
+            </div>
 
-        <!-- Daftar Mobil Tersedia -->
+            <button type="submit" class="btn btn-search mx-2" id="load-btn">
+                Cari Mobil
+            </button>
+        </div>
+        <!-- Search Bar Section End -->
+
+        <!-- Car List -->
         <div class="container result-container">
             <div class="result d-flex" id="cars-container">
-                <!-- Data JSON -->
+                <!-- JSON Data -->
             </div>
-            <!-- /Daftar Mobil Tersedia -->
-    </main>
-    <!-- End main -->
+            <!-- Car List End -->
+    </section>
+    
+
     <!-- Footer Section -->
     <section class="footer">
         <div class="container pb-5">
