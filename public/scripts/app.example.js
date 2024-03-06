@@ -35,10 +35,7 @@ class App {
     const time = document.getElementById("time").value
     const dateTime = new Date(`${date} ${time}`)
     const passenger = document.getElementById("passenger").value
-    if (driver === undefined || driver === "") {
-      alert("Please select a driver");
-      return;
-    } else if (passenger == "" && driver.toString() == "true") {
+    if (passenger == "" && driver.toString() == "true") {
       return Car.list.filter(
         (car) => car.available === true && car.availableAt <= dateTime
       );
@@ -85,20 +82,3 @@ function rupiah(number) {
   }).format(number)
 }
 
-function getDateTimeNow() {
-  var today = new Date();
-  var date =
-    today.getFullYear() +
-    "-" +
-    String(today.getMonth() + 1).padStart(2, "0") +
-    "-" +
-    String(today.getDate()).padStart(2, "0");
-  var time =
-    String(today.getHours()).padStart(2, "0") +
-    ":" +
-    String(today.getMinutes()).padStart(2, "0") +
-    ":" +
-    String(today.getSeconds()).padStart(2, "0");
-  var dateNow = date + "T" + time + ".000Z";
-  return dateNow;
-}

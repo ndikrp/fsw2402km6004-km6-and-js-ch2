@@ -86,7 +86,6 @@ p {
   margin-bottom: 20px;
 }
 
-
 /* Search Bar */
 .search-bar {
   display: flex;
@@ -159,8 +158,13 @@ p {
   color: white;
 }
 
-.result-container {
-  text-align: -webkit-center;
+.btn.btn-search:hover {
+  background-color: #42a045;
+  color: white;
+}
+
+.btn.btn-search:disabled {
+  background-color: #7e7e7e
 }
 
 .result {
@@ -194,4 +198,80 @@ p {
   height: 34px;
   width: 110px;
   background-color: #0d28a6;
+}
+
+/* RESPONSIF MOBIL LEXUS & SERVICE */
+@media (max-width: 768px) {
+  .upper-section {
+    height: auto;
+  }
+
+  .custom-img {
+    width: 100%;
+  }
+
+  .service-img {
+    width: auto;
+    height: auto;
+  }
+}
+
+/* RESPONSIF SEARCH BAR (TABLET) */
+@media (max-width: 768px) {
+  .search-bar {
+    margin-top: 0; 
+  }
+  .search-content {
+    width: 100%;
+    padding: 16px;
+    margin-top: 0;
+  }
+
+  .input-group {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .result-container {
+    margin-top: 100px; 
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding-top: 100px;
+  }
+}
+
+/* RESPONSIF SEARCH BAR (MOBILE) */
+@media (max-width: 576px) {
+  .search-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 10px 0; 
+    margin-bottom: 100px;
+  }
+
+  .search-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-group {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .result {
+    margin-top: 300px; 
+    margin-bottom: 360px;
+  }
+
+  .footer {
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+    z-index: 100;
+  }
 }
