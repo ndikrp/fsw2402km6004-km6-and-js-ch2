@@ -1,7 +1,17 @@
-# Binar: Challenge 02 On Progress
+# Binar: Challenge 02
 Fullstack Web Development Challenge 2 Binar Academy - FSW2402KM6004 Andhika Rizky Aulia  
 
+# How to Use
+1. `git clone https://github.com/ndikrp/f-fsw24001086-km6-and-js-ch2.git`
+2. `npm install`
+3. run using start script
+   a. `npm run start`
+   run in development
+   b. `npm run dev`
+4. click the link in the terminal or enter `http://localhost:3000` in your web browser
+5. Done
 
+# Challenge Template by https://github.com/FikriRNurhidayat
 - Mulai modifikasi file `server/index.js` apabila ingin membuat HTTP server.
 - Mulai modifikasi folder `public` apabila ingin memodifikasi HTML.
 
