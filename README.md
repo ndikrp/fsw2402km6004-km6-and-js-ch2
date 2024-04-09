@@ -1,5 +1,6 @@
 # Binar: Challenge 02
-Fullstack Web Development Challenge 2 Binar Academy - FSW2402KM6004 Andhika Rizky Aulia  
+Fullstack Web Development Challenge 2 Binar Academy - FSW2402KM6004 Andhika Rizky Aulia 
+A car rental web application with new page
 
 # How to Use
 1. `git clone https://github.com/ndikrp/f-fsw24001086-km6-and-js-ch2.git`
